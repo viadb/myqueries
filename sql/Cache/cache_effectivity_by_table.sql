@@ -1,2 +1,0 @@
--- Shows the cache effectivity on each table (1 row per table)
--- "_hits" and "_reads" includes "regular" blocks, indexes blocks, toast and tidx blocks
