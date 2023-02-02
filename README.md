@@ -70,26 +70,3 @@ Config file attached for using with [Hound](https://github.com/etsy/hound). Easi
 ```bash
 docker run -d -p 6080:6080 --name hound -v $(pwd):/data etsy/hound
 ```
-
-### Codesearch
-
-Also we recommend to use https://swtch.com/~rsc/regexp/regexp4.html (Google's codesearch)
-[codesearch](https://github.com/google/codesearch)
-
-```
-cd <this_repo>
-export CSEARCHINDEX=${PWD}/csearchindex
-./cindex <this_repo>/sql
-./csearch <expression>
-```
-
-Requires build, but otherwise works like a charm.
-
-To use it, `cd` to this directory and:
-
-```sh
-source env
-```
-
-
-## References and other repositories
