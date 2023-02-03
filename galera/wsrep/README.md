@@ -10,3 +10,8 @@ of certificates collision.
 
 The pre-stage of the validatios is the pre-commit phase, which should be monitored closely, as it can
 lead to a load propagation.
+
+## MySQL WSREP Options
+
+> [Option Reference](https://galeracluster.com/library/documentation/mysql-wsrep-options.html)
+
