@@ -1,4 +1,4 @@
--- Transaction who are waiting or beign locked
+-- Transactions in waiting states or being locked
 
 SELECT
   r.trx_id waiting_trx_id,

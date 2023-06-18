@@ -54,19 +54,3 @@ Something like [egres QA](https://gitlab.com/ongresinc/devel/egres/egres_qa/tree
 [MySQL Tips](https://www.mysqltutorial.org/mysqltips.aspx) 
 [MySQL Performance Tuning: Top 10 Easy Tips](https://blogs.oracle.com/mysql/post/mysql-performance-tuning-top-10-easy-tips)
 
-## Searching
-
-`git grep` is the recommended, although as we expect this to grow considerably,
-we offer a few other solutions that can speed up or improve searching.
-
-### Le ol' `git grep`
-
-Use `git grep <pattern>` for searching in th repo.
-
-### Hound
-
-Config file attached for using with [Hound](https://github.com/etsy/hound). Easiest way to get this working is via Docker:
-
-```bash
-docker run -d -p 6080:6080 --name hound -v $(pwd):/data etsy/hound
-```

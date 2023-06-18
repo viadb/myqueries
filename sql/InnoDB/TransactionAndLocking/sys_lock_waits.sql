@@ -1,4 +1,4 @@
--- Second way of see blocked transactions with a view called innodb_lock_waits on the "sys" schema
+-- Lock waits in sys schema
 
 SELECT
   waiting_trx_id,
